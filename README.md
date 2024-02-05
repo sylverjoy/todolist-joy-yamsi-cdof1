@@ -1,5 +1,6 @@
 # todolist-joy-yamsi-td1
 A console based application to help keep track of tasks. You can add, delete and mark task completed.
+![App Screenshot](TodoApp-Screenshot.png)
 
 # Command-Line Todo List App with PostgreSQL
 

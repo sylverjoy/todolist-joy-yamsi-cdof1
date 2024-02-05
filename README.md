@@ -29,13 +29,20 @@ Before running this application, ensure you have the following installed on your
 
 ## Running the Todo List App
 
-1. Run the Python script for the backend:
+1. Install the required Python packages:
+
+    ```bash
+    pip install psycopg2-binary
+    ```
+
+2. Run the Python script for the backend:
 
     ```bash
     python main.py
     ```
 
-2. Follow the prompts to add tasks, view tasks, and exit the application.
+3. Follow the prompts to add tasks, view tasks, and exit the application.
+
 
 ## Additional Notes
 

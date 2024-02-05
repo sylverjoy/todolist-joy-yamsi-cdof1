@@ -7,7 +7,10 @@ def main():
         
         while True:
             print("\n1. Add Todo\n2. View Todos\n3. Exit")
-            choice = input("Enter your choice (1/2/3): ")
+            try:
+                choice = input("Enter your choice (1/2/3): ")
+            except ValueError:
+                print('Invalid input. Please enter a valid number.')
 
             if choice == "1":
                 task = input("Enter the task: ")
